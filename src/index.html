@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link href="../dist/output.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Plus+Jakarta+Sans:wght@500;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Notifications page</title>
+  </head>
+  <body class="text-base bg-very-light-grayish-blue font-jakarta">
+    <main class="h-screen flex items-center justify-center mx-auto">
+      <div class="w-[575px] h-[550px] bg-white shadow-md rounded-lg">
+        <!--Notification Header Starts-->
+        <div class="flex px-5 py-6 justify-between">
+          <div class="flex items-center">
+            <div class="mr-3 font-extrabold">Notifications</div>
+            <div
+              class="w-6 h-5 bg-primary-blue items-center justify-center text-center text-white text-xs pt-[2px] rounded-md"
+            >
+              3
+            </div>
+          </div>
+          <div>
+            <button class="text-xs font-medium text-slate-500">
+              Mark all as read
+            </button>
+          </div>
+        </div>
+        <!--Notification Header Ends-->
+
+        <!--Single Notifications-->
+        <div>
+          <div class="bg-light-grayish-blue-1 flex p-3 mx-5 rounded-md gap-3">
+            <img
+              src="../assets/images/avatar-mark-webber.webp"
+              alt="/"
+              class="w-10 h-10"
+            />
+            <div class="text-slate-500">
+              <div class="flex items-center justify-center gap-2 mb-1">
+                <p class="text-xs">
+                  <span class="font-extrabold text-slate-900">Mark Webber</span>
+                  reacted to your recent post
+                  <span class="font-extrabold">My first tournament today!</span>
+                </p>
+                <div
+                  class="inline-block w-2 h-2 bg-primary-red rounded-full"
+                ></div>
+              </div>
+
+              <p class="text-xs">1m ago</p>
+            </div>
+          </div>
+        </div>
+        <!--Single Notifications Ends-->
+      </div>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
