@@ -20,12 +20,16 @@
   </head>
   <body class="text-base bg-very-light-grayish-blue font-jakarta">
     <main class="h-screen flex items-center justify-center mx-auto">
-      <div class="w-[550px] h-auto bg-white shadow-md rounded-lg">
+      <div
+        id="notification-container"
+        class="w-[550px] h-auto bg-white shadow-md rounded-lg"
+      >
         <!--Notification Header Starts-->
         <div class="flex px-5 py-6 justify-between">
           <div class="flex items-center">
             <div class="mr-3 font-extrabold">Notifications</div>
             <div
+              id="notifications"
               class="w-6 h-5 bg-primary-blue items-center justify-center text-center text-white text-xs pt-[2px] rounded-md"
             >
               3
@@ -33,6 +37,7 @@
           </div>
           <div>
             <button
+              id="btn"
               class="text-xs font-medium text-slate-500 hover:text-primary-blue hover:font-medium"
             >
               Mark all as read
@@ -44,7 +49,7 @@
         <!--Single Notifications-->
         <div class="mb-1">
           <div
-            class="bg-very-light-grayish-blue flex p-3 mx-5 rounded-md gap-3"
+            class="bg-very-light-grayish-blue flex p-3 mx-5 rounded-md gap-3 notification-bg"
           >
             <img
               src="../assets/images/avatar-mark-webber.webp"
@@ -65,7 +70,7 @@
                   >
                 </p>
                 <div
-                  class="inline-block w-2 h-2 bg-primary-red rounded-full"
+                  class="w-2 h-2 bg-primary-red rounded-full notification"
                 ></div>
               </div>
               <p class="text-xs">1m ago</p>
@@ -77,7 +82,7 @@
         <!--Single Notifications-->
         <div class="mb-1">
           <div
-            class="bg-very-light-grayish-blue flex p-3 mx-5 rounded-md gap-3"
+            class="bg-very-light-grayish-blue flex p-3 mx-5 rounded-md gap-3 notification-bg"
           >
             <img
               src="../assets/images/avatar-angela-gray.webp"
@@ -94,7 +99,7 @@
                   followed you
                 </p>
                 <div
-                  class="inline-block w-2 h-2 bg-primary-red rounded-full"
+                  class="inline-block w-2 h-2 bg-primary-red rounded-full notification"
                 ></div>
               </div>
               <p class="text-xs">5m ago</p>
@@ -106,7 +111,7 @@
         <!--Single Notifications-->
         <div class="mb-1">
           <div
-            class="bg-very-light-grayish-blue flex p-3 mx-5 rounded-md gap-3"
+            class="bg-very-light-grayish-blue flex p-3 mx-5 rounded-md gap-3 notification-bg"
           >
             <img
               src="../assets/images/avatar-jacob-thompson.webp"
@@ -127,7 +132,7 @@
                   >
                 </p>
                 <div
-                  class="inline-block w-2 h-2 bg-primary-red rounded-full"
+                  class="inline-block w-2 h-2 bg-primary-red rounded-full notification"
                 ></div>
               </div>
               <p class="text-xs">1 day ago</p>
@@ -266,5 +271,7 @@
         >Malinga de Silva - CodeXMalinga</a
       >.
     </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>
