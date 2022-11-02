@@ -557,22 +557,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.float-right {
-  float: right;
-}
-
-.clear-left {
-  clear: left;
-}
-
-.clear-right {
-  clear: right;
-}
-
-.m-3 {
-  margin: 0.75rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -583,16 +567,6 @@ video {
   margin-right: 1.25rem;
 }
 
-.mx-3 {
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
-}
-
-.mx-24 {
-  margin-left: 6rem;
-  margin-right: 6rem;
-}
-
 .mr-3 {
   margin-right: 0.75rem;
 }
@@ -601,56 +575,16 @@ video {
   margin-bottom: 0.25rem;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
-.ml-3 {
-  margin-left: 0.75rem;
-}
-
-.ml-8 {
-  margin-left: 2rem;
-}
-
-.ml-12 {
-  margin-left: 3rem;
+.mr-8 {
+  margin-right: 2rem;
 }
 
 .ml-20 {
   margin-left: 5rem;
 }
 
-.ml-24 {
-  margin-left: 6rem;
-}
-
-.-mr-5 {
-  margin-right: -1.25rem;
-}
-
-.mr-5 {
-  margin-right: 1.25rem;
-}
-
-.mr-12 {
-  margin-right: 3rem;
-}
-
-.mr-6 {
-  margin-right: 1.5rem;
-}
-
-.mr-8 {
-  margin-right: 2rem;
-}
-
 .-mt-2 {
   margin-top: -0.5rem;
-}
-
-.-mt-3 {
-  margin-top: -0.75rem;
 }
 
 .inline-block {
@@ -669,8 +603,8 @@ video {
   height: 100vh;
 }
 
-.h-\[550px\] {
-  height: 550px;
+.h-auto {
+  height: auto;
 }
 
 .h-5 {
@@ -689,16 +623,8 @@ video {
   height: 2rem;
 }
 
-.h-12 {
-  height: 3rem;
-}
-
-.h-auto {
-  height: auto;
-}
-
-.w-\[575px\] {
-  width: 575px;
+.w-\[550px\] {
+  width: 550px;
 }
 
 .w-6 {
@@ -713,36 +639,16 @@ video {
   width: 0.5rem;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .w-auto {
   width: auto;
 }
 
-.w-32 {
-  width: 8rem;
+.w-8 {
+  width: 2rem;
 }
 
-.w-96 {
-  width: 24rem;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[90\] {
-  width: 90;
-}
-
-.w-\[90\%\] {
-  width: 90%;
-}
-
-.w-\[550px\] {
-  width: 550px;
+.min-w-\[450px\] {
+  min-width: 450px;
 }
 
 .flex-col {
@@ -751,10 +657,6 @@ video {
 
 .flex-wrap {
   flex-wrap: wrap;
-}
-
-.flex-nowrap {
-  flex-wrap: nowrap;
 }
 
 .items-center {
@@ -769,24 +671,12 @@ video {
   justify-content: space-between;
 }
 
-.justify-around {
-  justify-content: space-around;
-}
-
 .gap-3 {
   gap: 0.75rem;
 }
 
 .gap-2 {
   gap: 0.5rem;
-}
-
-.overflow-hidden {
-  overflow: hidden;
-}
-
-.overflow-x-hidden {
-  overflow-x: hidden;
 }
 
 .overflow-y-hidden {
@@ -828,36 +718,13 @@ video {
   background-color: hsl(219 85% 26% / var(--tw-bg-opacity));
 }
 
-.bg-light-grayish-blue-1 {
-  --tw-bg-opacity: 1;
-  background-color: hsl(211 68% 94% / var(--tw-bg-opacity));
-}
-
 .bg-primary-red {
   --tw-bg-opacity: 1;
   background-color: hsl(1 90% 64% / var(--tw-bg-opacity));
 }
 
-.bg-light-grayish-blue-2 {
-  --tw-bg-opacity: 1;
-  background-color: hsl(205 33% 90% / var(--tw-bg-opacity));
-}
-
-.bg-grayish-blue {
-  --tw-bg-opacity: 1;
-  background-color: hsl(219 14% 63% / var(--tw-bg-opacity));
-}
-
 .p-3 {
   padding: 0.75rem;
-}
-
-.p-6 {
-  padding: 1.5rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
 }
 
 .px-5 {
@@ -872,10 +739,6 @@ video {
 
 .pt-\[2px\] {
   padding-top: 2px;
-}
-
-.pr-3 {
-  padding-right: 0.75rem;
 }
 
 .text-center {
@@ -894,11 +757,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
 }
 
 .font-extrabold {
@@ -953,16 +811,8 @@ video {
   background-color: hsl(211 68% 94% / var(--tw-bg-opacity));
 }
 
-.hover\:font-bold:hover {
-  font-weight: 700;
-}
-
 .hover\:font-medium:hover {
   font-weight: 500;
-}
-
-.hover\:font-semibold:hover {
-  font-weight: 600;
 }
 
 .hover\:text-primary-blue:hover {
@@ -970,32 +820,16 @@ video {
   color: hsl(219 85% 26% / var(--tw-text-opacity));
 }
 
-.hover\:text-slate-900:hover {
-  --tw-text-opacity: 1;
-  color: rgb(15 23 42 / var(--tw-text-opacity));
-}
+@media (min-width: 640px) {
+  .sm\:inline-block {
+    display: inline-block;
+  }
 
-.focus\:bg-primary-red:focus {
-  --tw-bg-opacity: 1;
-  background-color: hsl(1 90% 64% / var(--tw-bg-opacity));
-}
+  .sm\:h-10 {
+    height: 2.5rem;
+  }
 
-.focus\:text-primary-blue:focus {
-  --tw-text-opacity: 1;
-  color: hsl(219 85% 26% / var(--tw-text-opacity));
-}
-
-.focus\:text-primary-red:focus {
-  --tw-text-opacity: 1;
-  color: hsl(1 90% 64% / var(--tw-text-opacity));
-}
-
-.active\:bg-primary-red:active {
-  --tw-bg-opacity: 1;
-  background-color: hsl(1 90% 64% / var(--tw-bg-opacity));
-}
-
-.active\:text-primary-red:active {
-  --tw-text-opacity: 1;
-  color: hsl(1 90% 64% / var(--tw-text-opacity));
+  .sm\:w-10 {
+    width: 2.5rem;
+  }
 }
